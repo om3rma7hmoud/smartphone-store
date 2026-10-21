@@ -1,0 +1,20 @@
+[
+  {
+    "userEmail": "ahmed@example.com",
+    "fullName": "Ahmed Hassan",
+    "phone": "01000000002",
+    "city": "Cairo",
+    "area": "Nasr City",
+    "street": "Makram Ebeid Street",
+    "isDefault": true
+  },
+  {
+    "userEmail": "mohamed@example.com",
+    "fullName": "Mohamed Ali",
+    "phone": "01000000003",
+    "city": "Alexandria",
+    "area": "Smouha",
+    "street": "Victor Emanuel Street",
+    "isDefault": true
+  }
+]

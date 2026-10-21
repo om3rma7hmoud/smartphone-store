@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "type": "PHONE"
+  },
+  {
+    "name": "Accessories",
+    "slug": "accessories",
+    "type": "ACCESSORY"
+  }
+]

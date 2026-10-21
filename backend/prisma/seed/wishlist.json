@@ -1,0 +1,14 @@
+[
+  {
+    "userEmail": "ahmed@example.com",
+    "productSlug": "iphone-17-pro"
+  },
+  {
+    "userEmail": "ahmed@example.com",
+    "productSlug": "samsung-galaxy-s26-ultra"
+  },
+  {
+    "userEmail": "mohamed@example.com",
+    "productSlug": "google-pixel-10-pro"
+  }
+]

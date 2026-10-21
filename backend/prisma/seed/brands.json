@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Apple",
+    "slug": "apple",
+    "logoUrl": "https://cdn.simpleicons.org/apple"
+  },
+  {
+    "name": "Samsung",
+    "slug": "samsung",
+    "logoUrl": "https://cdn.simpleicons.org/samsung"
+  },
+  {
+    "name": "Google",
+    "slug": "google",
+    "logoUrl": "https://cdn.simpleicons.org/google"
+  },
+  {
+    "name": "Xiaomi",
+    "slug": "xiaomi",
+    "logoUrl": "https://cdn.simpleicons.org/xiaomi"
+  },
+  {
+    "name": "OnePlus",
+    "slug": "oneplus",
+    "logoUrl": "https://cdn.simpleicons.org/oneplus"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "userEmail": "ahmed@example.com",
+    "productSlug": "iphone-17-pro",
+    "rating": 5,
+    "comment": "Excellent build quality and outstanding camera performance."
+  },
+  {
+    "userEmail": "mohamed@example.com",
+    "productSlug": "iphone-17-pro",
+    "rating": 4,
+    "comment": "Very fast phone with a beautiful display."
+  },
+  {
+    "userEmail": "ahmed@example.com",
+    "productSlug": "samsung-galaxy-s26-ultra",
+    "rating": 5,
+    "comment": "The display and camera system are excellent."
+  },
+  {
+    "userEmail": "mohamed@example.com",
+    "productSlug": "google-pixel-10-pro",
+    "rating": 5,
+    "comment": "Fantastic camera and clean Android experience."
+  },
+  {
+    "userEmail": "ahmed@example.com",
+    "productSlug": "oneplus-14",
+    "rating": 4,
+    "comment": "Very fast and the battery lasts all day."
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "name": "iPhone 17 Pro",
+    "slug": "iphone-17-pro",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "description": "The iPhone 17 Pro combines flagship performance, advanced photography, and a premium titanium design.",
+    "screenSize": "6.3 inch",
+    "screenType": "Super Retina XDR OLED",
+    "processor": "Apple A19 Pro",
+    "battery": "4250 mAh",
+    "camera": "48MP + 48MP + 48MP",
+    "os": "iOS",
+    "releaseYear": 2026,
+    "isPublished": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1592286927505-2fd0b4f2b5a4",
+        "altText": "iPhone smartphone",
+        "order": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": "Cosmic Black",
+        "colorHex": "#171717",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "APL-IP17PRO-BLK-256",
+        "price": 64999,
+        "compareAtPrice": 69999,
+        "stock": 8
+      },
+      {
+        "color": "Silver",
+        "colorHex": "#D6D6D6",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "APL-IP17PRO-SLV-256",
+        "price": 64999,
+        "compareAtPrice": 69999,
+        "stock": 5
+      },
+      {
+        "color": "Cosmic Black",
+        "colorHex": "#171717",
+        "storage": "512GB",
+        "ram": "12GB",
+        "sku": "APL-IP17PRO-BLK-512",
+        "price": 74999,
+        "compareAtPrice": 79999,
+        "stock": 4
+      }
+    ],
+    "tags": ["new", "bestseller"]
+  },
+  {
+    "name": "Samsung Galaxy S26 Ultra",
+    "slug": "samsung-galaxy-s26-ultra",
+    "brand": "Samsung",
+    "category": "Smartphones",
+    "description": "A flagship Android smartphone with an immersive display, powerful processor, and professional camera system.",
+    "screenSize": "6.9 inch",
+    "screenType": "Dynamic AMOLED 2X",
+    "processor": "Snapdragon 8 Elite Gen 5",
+    "battery": "5500 mAh",
+    "camera": "200MP + 50MP + 50MP + 10MP",
+    "os": "Android",
+    "releaseYear": 2026,
+    "isPublished": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+        "altText": "Samsung smartphone",
+        "order": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": "Titanium Black",
+        "colorHex": "#151515",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "SAM-S26U-BLK-256",
+        "price": 66999,
+        "compareAtPrice": 71999,
+        "stock": 10
+      },
+      {
+        "color": "Titanium Silver",
+        "colorHex": "#C8C8C8",
+        "storage": "512GB",
+        "ram": "12GB",
+        "sku": "SAM-S26U-SLV-512",
+        "price": 72999,
+        "compareAtPrice": 77999,
+        "stock": 6
+      },
+      {
+        "color": "Titanium Blue",
+        "colorHex": "#607D9B",
+        "storage": "1TB",
+        "ram": "16GB",
+        "sku": "SAM-S26U-BLU-1TB",
+        "price": 84999,
+        "compareAtPrice": 89999,
+        "stock": 3
+      }
+    ],
+    "tags": ["new", "bestseller"]
+  },
+  {
+    "name": "Google Pixel 10 Pro",
+    "slug": "google-pixel-10-pro",
+    "brand": "Google",
+    "category": "Smartphones",
+    "description": "Google's flagship Pixel delivers intelligent photography, clean Android software, and advanced AI features.",
+    "screenSize": "6.3 inch",
+    "screenType": "LTPO OLED",
+    "processor": "Google Tensor G6",
+    "battery": "5000 mAh",
+    "camera": "50MP + 48MP + 48MP",
+    "os": "Android",
+    "releaseYear": 2026,
+    "isPublished": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+        "altText": "Google Pixel smartphone",
+        "order": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": "Obsidian",
+        "colorHex": "#202124",
+        "storage": "256GB",
+        "ram": "16GB",
+        "sku": "GOO-P10P-OBS-256",
+        "price": 49999,
+        "compareAtPrice": 54999,
+        "stock": 12
+      },
+      {
+        "color": "Porcelain",
+        "colorHex": "#F2EEE8",
+        "storage": "512GB",
+        "ram": "16GB",
+        "sku": "GOO-P10P-POR-512",
+        "price": 57999,
+        "compareAtPrice": 61999,
+        "stock": 7
+      }
+    ],
+    "tags": ["new"]
+  },
+  {
+    "name": "OnePlus 14",
+    "slug": "oneplus-14",
+    "brand": "OnePlus",
+    "category": "Smartphones",
+    "description": "A high-performance Android flagship focused on speed, smooth display performance, and fast charging.",
+    "screenSize": "6.78 inch",
+    "screenType": "AMOLED 120Hz",
+    "processor": "Snapdragon 8 Elite Gen 5",
+    "battery": "6000 mAh",
+    "camera": "50MP + 50MP + 32MP",
+    "os": "Android",
+    "releaseYear": 2026,
+    "isPublished": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1556656793-08538906a9f8",
+        "altText": "OnePlus smartphone",
+        "order": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": "Obsidian",
+        "colorHex": "#111111",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "ONE-14-OBS-256",
+        "price": 39999,
+        "compareAtPrice": 43999,
+        "stock": 15
+      },
+      {
+        "color": "Emerald",
+        "colorHex": "#176B57",
+        "storage": "512GB",
+        "ram": "16GB",
+        "sku": "ONE-14-EMR-512",
+        "price": 45999,
+        "compareAtPrice": 49999,
+        "stock": 9
+      }
+    ],
+    "tags": ["deal"]
+  },
+  {
+    "name": "Xiaomi 16 Pro",
+    "slug": "xiaomi-16-pro",
+    "brand": "Xiaomi",
+    "category": "Smartphones",
+    "description": "A premium Xiaomi smartphone offering flagship hardware, a high refresh rate display, and a large battery.",
+    "screenSize": "6.73 inch",
+    "screenType": "AMOLED 120Hz",
+    "processor": "Snapdragon 8 Elite",
+    "battery": "6100 mAh",
+    "camera": "50MP + 50MP + 50MP",
+    "os": "Android",
+    "releaseYear": 2026,
+    "isPublished": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+        "altText": "Xiaomi smartphone",
+        "order": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#101010",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "XIA-16P-BLK-256",
+        "price": 32999,
+        "compareAtPrice": 36999,
+        "stock": 18
+      },
+      {
+        "color": "White",
+        "colorHex": "#F5F5F5",
+        "storage": "512GB",
+        "ram": "16GB",
+        "sku": "XIA-16P-WHT-512",
+        "price": 37999,
+        "compareAtPrice": 41999,
+        "stock": 11
+      }
+    ],
+    "tags": ["deal"]
+  },
+  {
+    "name": "Samsung Galaxy A77",
+    "slug": "samsung-galaxy-a77",
+    "brand": "Samsung",
+    "category": "Smartphones",
+    "description": "A balanced Samsung smartphone combining a smooth AMOLED display, reliable cameras, and long battery life.",
+    "screenSize": "6.7 inch",
+    "screenType": "Super AMOLED 120Hz",
+    "processor": "Exynos 2600",
+    "battery": "5000 mAh",
+    "camera": "50MP + 12MP + 8MP",
+    "os": "Android",
+    "releaseYear": 2026,
+    "isPublished": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1580910051074-3eb694886505",
+        "altText": "Samsung Galaxy smartphone",
+        "order": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#111111",
+        "storage": "128GB",
+        "ram": "8GB",
+        "sku": "SAM-A77-BLK-128",
+        "price": 24999,
+        "compareAtPrice": 27999,
+        "stock": 20
+      },
+      {
+        "color": "Blue",
+        "colorHex": "#456B96",
+        "storage": "256GB",
+        "ram": "8GB",
+        "sku": "SAM-A77-BLU-256",
+        "price": 27999,
+        "compareAtPrice": 30999,
+        "stock": 14
+      }
+    ],
+    "tags": ["deal", "bestseller"]
+  },
+  {
+    "name": "AirPods Pro",
+    "slug": "airpods-pro",
+    "brand": "Apple",
+    "category": "Accessories",
+    "description": "Premium wireless earbuds with active noise cancellation and an immersive audio experience.",
+    "isPublished": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1",
+        "altText": "AirPods Pro",
+        "order": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": "White",
+        "colorHex": "#FFFFFF",
+        "storage": null,
+        "ram": null,
+        "sku": "APL-APPRO-WHT",
+        "price": 8999,
+        "compareAtPrice": 9999,
+        "stock": 25
+      }
+    ],
+    "tags": ["bestseller"]
+  },
+  {
+    "name": "Galaxy Buds",
+    "slug": "galaxy-buds",
+    "brand": "Samsung",
+    "category": "Accessories",
+    "description": "Compact wireless earbuds with rich sound and active noise cancellation.",
+    "isPublished": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46",
+        "altText": "Galaxy Buds",
+        "order": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": "Graphite",
+        "colorHex": "#343434",
+        "storage": null,
+        "ram": null,
+        "sku": "SAM-BUDS-GRA",
+        "price": 4999,
+        "compareAtPrice": 5999,
+        "stock": 30
+      }
+    ],
+    "tags": ["deal", "bestseller"]
+  },
+  {
+    "name": "Apple Watch Series 11",
+    "slug": "apple-watch-series-11",
+    "brand": "Apple",
+    "category": "Accessories",
+    "description": "A premium smartwatch with health, fitness, communication, and everyday productivity features.",
+    "isPublished": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12",
+        "altText": "Apple Watch",
+        "order": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": "Midnight",
+        "colorHex": "#171717",
+        "storage": null,
+        "ram": null,
+        "sku": "APL-W11-MID",
+        "price": 14999,
+        "compareAtPrice": 16999,
+        "stock": 13
+      }
+    ],
+    "tags": ["new", "bestseller"]
+  }
+]
