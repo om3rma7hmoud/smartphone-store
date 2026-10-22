@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import { rateLimit } from "express-rate-limit";
+import * as rateLimitModule from "express-rate-limit";
 import morgan from "morgan";
 import routes from "./routes/index.js";
 import { env } from "./config/env.js";
@@ -34,7 +34,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(
-  rateLimit({
+  rateLimitModule.rateLimit({
     windowMs: 15 * 60 * 1000,
     limit: 100,
     skip: () => env.NODE_ENV !== "production",
