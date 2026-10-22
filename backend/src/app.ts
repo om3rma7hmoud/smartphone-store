@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import rateLimit from "express-rate-limit";
+import { rateLimit } from "express-rate-limit";
 import morgan from "morgan";
 import routes from "./routes/index.js";
 import { env } from "./config/env.js";
