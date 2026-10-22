@@ -10,6 +10,12 @@ interface FilterDrawerProps {
   updateFilters: (next: FilterProduct) => void;
   emptyFilters: FilterProduct;
   results: Product[];
+  options: {
+    brands: string[];
+    os: string[];
+    rams: string[];
+    storages: string[];
+  };
 }
 
 function FilterDrawer({
@@ -19,6 +25,7 @@ function FilterDrawer({
   updateFilters,
   emptyFilters,
   results,
+  options,
 }: FilterDrawerProps) {
   return (
     <AnimatePresence>
@@ -61,6 +68,7 @@ function FilterDrawer({
             <div className="flex-1 overflow-y-auto px-4 py-4">
               <FilterPanel
                 filters={filters}
+                options={options}
                 onChange={updateFilters}
                 onClear={() => updateFilters(emptyFilters)}
               />

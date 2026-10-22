@@ -1,376 +1,481 @@
 [
   {
-    "name": "iPhone 17 Pro",
-    "slug": "iphone-17-pro",
-    "brand": "Apple",
-    "category": "Smartphones",
-    "description": "The iPhone 17 Pro combines flagship performance, advanced photography, and a premium titanium design.",
-    "screenSize": "6.3 inch",
-    "screenType": "Super Retina XDR OLED",
-    "processor": "Apple A19 Pro",
-    "battery": "4250 mAh",
-    "camera": "48MP + 48MP + 48MP",
-    "os": "iOS",
-    "releaseYear": 2026,
-    "isPublished": true,
-    "images": [
-      {
-        "url": "https://images.unsplash.com/photo-1592286927505-2fd0b4f2b5a4",
-        "altText": "iPhone smartphone",
-        "order": 0
-      }
-    ],
-    "variants": [
-      {
-        "color": "Cosmic Black",
-        "colorHex": "#171717",
-        "storage": "256GB",
-        "ram": "12GB",
-        "sku": "APL-IP17PRO-BLK-256",
-        "price": 64999,
-        "compareAtPrice": 69999,
-        "stock": 8
-      },
-      {
-        "color": "Silver",
-        "colorHex": "#D6D6D6",
-        "storage": "256GB",
-        "ram": "12GB",
-        "sku": "APL-IP17PRO-SLV-256",
-        "price": 64999,
-        "compareAtPrice": 69999,
-        "stock": 5
-      },
-      {
-        "color": "Cosmic Black",
-        "colorHex": "#171717",
-        "storage": "512GB",
-        "ram": "12GB",
-        "sku": "APL-IP17PRO-BLK-512",
-        "price": 74999,
-        "compareAtPrice": 79999,
-        "stock": 4
-      }
-    ],
-    "tags": ["new", "bestseller"]
-  },
-  {
-    "name": "Samsung Galaxy S26 Ultra",
-    "slug": "samsung-galaxy-s26-ultra",
+    "name": "Samsung Galaxy A56 5G",
+    "slug": "samsung-galaxy-a56-5g",
+    "description": "5G smartphone with a Super AMOLED display, versatile cameras, and long-term software support.",
     "brand": "Samsung",
     "category": "Smartphones",
-    "description": "A flagship Android smartphone with an immersive display, powerful processor, and professional camera system.",
-    "screenSize": "6.9 inch",
-    "screenType": "Dynamic AMOLED 2X",
-    "processor": "Snapdragon 8 Elite Gen 5",
-    "battery": "5500 mAh",
-    "camera": "200MP + 50MP + 50MP + 10MP",
-    "os": "Android",
-    "releaseYear": 2026,
-    "isPublished": true,
-    "images": [
-      {
-        "url": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
-        "altText": "Samsung smartphone",
-        "order": 0
-      }
-    ],
-    "variants": [
-      {
-        "color": "Titanium Black",
-        "colorHex": "#151515",
-        "storage": "256GB",
-        "ram": "12GB",
-        "sku": "SAM-S26U-BLK-256",
-        "price": 66999,
-        "compareAtPrice": 71999,
-        "stock": 10
-      },
-      {
-        "color": "Titanium Silver",
-        "colorHex": "#C8C8C8",
-        "storage": "512GB",
-        "ram": "12GB",
-        "sku": "SAM-S26U-SLV-512",
-        "price": 72999,
-        "compareAtPrice": 77999,
-        "stock": 6
-      },
-      {
-        "color": "Titanium Blue",
-        "colorHex": "#607D9B",
-        "storage": "1TB",
-        "ram": "16GB",
-        "sku": "SAM-S26U-BLU-1TB",
-        "price": 84999,
-        "compareAtPrice": 89999,
-        "stock": 3
-      }
-    ],
-    "tags": ["new", "bestseller"]
-  },
-  {
-    "name": "Google Pixel 10 Pro",
-    "slug": "google-pixel-10-pro",
-    "brand": "Google",
-    "category": "Smartphones",
-    "description": "Google's flagship Pixel delivers intelligent photography, clean Android software, and advanced AI features.",
-    "screenSize": "6.3 inch",
-    "screenType": "LTPO OLED",
-    "processor": "Google Tensor G6",
+    "screenSize": "6.7 inches",
+    "screenType": "Super AMOLED, 120Hz",
+    "processor": "Exynos 1580",
     "battery": "5000 mAh",
-    "camera": "50MP + 48MP + 48MP",
+    "camera": "50MP + 12MP + 5MP rear, 12MP front",
     "os": "Android",
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPublished": true,
-    "images": [
-      {
-        "url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
-        "altText": "Google Pixel smartphone",
-        "order": 0
-      }
+    "tags": [
+      "new",
+      "bestseller"
     ],
-    "variants": [
-      {
-        "color": "Obsidian",
-        "colorHex": "#202124",
-        "storage": "256GB",
-        "ram": "16GB",
-        "sku": "GOO-P10P-OBS-256",
-        "price": 49999,
-        "compareAtPrice": 54999,
-        "stock": 12
-      },
-      {
-        "color": "Porcelain",
-        "colorHex": "#F2EEE8",
-        "storage": "512GB",
-        "ram": "16GB",
-        "sku": "GOO-P10P-POR-512",
-        "price": 57999,
-        "compareAtPrice": 61999,
-        "stock": 7
-      }
-    ],
-    "tags": ["new"]
-  },
-  {
-    "name": "OnePlus 14",
-    "slug": "oneplus-14",
-    "brand": "OnePlus",
-    "category": "Smartphones",
-    "description": "A high-performance Android flagship focused on speed, smooth display performance, and fast charging.",
-    "screenSize": "6.78 inch",
-    "screenType": "AMOLED 120Hz",
-    "processor": "Snapdragon 8 Elite Gen 5",
-    "battery": "6000 mAh",
-    "camera": "50MP + 50MP + 32MP",
-    "os": "Android",
-    "releaseYear": 2026,
-    "isPublished": true,
-    "images": [
-      {
-        "url": "https://images.unsplash.com/photo-1556656793-08538906a9f8",
-        "altText": "OnePlus smartphone",
-        "order": 0
-      }
-    ],
-    "variants": [
-      {
-        "color": "Obsidian",
-        "colorHex": "#111111",
-        "storage": "256GB",
-        "ram": "12GB",
-        "sku": "ONE-14-OBS-256",
-        "price": 39999,
-        "compareAtPrice": 43999,
-        "stock": 15
-      },
-      {
-        "color": "Emerald",
-        "colorHex": "#176B57",
-        "storage": "512GB",
-        "ram": "16GB",
-        "sku": "ONE-14-EMR-512",
-        "price": 45999,
-        "compareAtPrice": 49999,
-        "stock": 9
-      }
-    ],
-    "tags": ["deal"]
-  },
-  {
-    "name": "Xiaomi 16 Pro",
-    "slug": "xiaomi-16-pro",
-    "brand": "Xiaomi",
-    "category": "Smartphones",
-    "description": "A premium Xiaomi smartphone offering flagship hardware, a high refresh rate display, and a large battery.",
-    "screenSize": "6.73 inch",
-    "screenType": "AMOLED 120Hz",
-    "processor": "Snapdragon 8 Elite",
-    "battery": "6100 mAh",
-    "camera": "50MP + 50MP + 50MP",
-    "os": "Android",
-    "releaseYear": 2026,
-    "isPublished": true,
-    "images": [
-      {
-        "url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
-        "altText": "Xiaomi smartphone",
-        "order": 0
-      }
-    ],
-    "variants": [
-      {
-        "color": "Black",
-        "colorHex": "#101010",
-        "storage": "256GB",
-        "ram": "12GB",
-        "sku": "XIA-16P-BLK-256",
-        "price": 32999,
-        "compareAtPrice": 36999,
-        "stock": 18
-      },
-      {
-        "color": "White",
-        "colorHex": "#F5F5F5",
-        "storage": "512GB",
-        "ram": "16GB",
-        "sku": "XIA-16P-WHT-512",
-        "price": 37999,
-        "compareAtPrice": 41999,
-        "stock": 11
-      }
-    ],
-    "tags": ["deal"]
-  },
-  {
-    "name": "Samsung Galaxy A77",
-    "slug": "samsung-galaxy-a77",
-    "brand": "Samsung",
-    "category": "Smartphones",
-    "description": "A balanced Samsung smartphone combining a smooth AMOLED display, reliable cameras, and long battery life.",
-    "screenSize": "6.7 inch",
-    "screenType": "Super AMOLED 120Hz",
-    "processor": "Exynos 2600",
-    "battery": "5000 mAh",
-    "camera": "50MP + 12MP + 8MP",
-    "os": "Android",
-    "releaseYear": 2026,
-    "isPublished": true,
-    "images": [
-      {
-        "url": "https://images.unsplash.com/photo-1580910051074-3eb694886505",
-        "altText": "Samsung Galaxy smartphone",
-        "order": 0
-      }
-    ],
-    "variants": [
-      {
-        "color": "Black",
-        "colorHex": "#111111",
-        "storage": "128GB",
-        "ram": "8GB",
-        "sku": "SAM-A77-BLK-128",
-        "price": 24999,
-        "compareAtPrice": 27999,
-        "stock": 20
-      },
-      {
-        "color": "Blue",
-        "colorHex": "#456B96",
-        "storage": "256GB",
-        "ram": "8GB",
-        "sku": "SAM-A77-BLU-256",
-        "price": 27999,
-        "compareAtPrice": 30999,
-        "stock": 14
-      }
-    ],
-    "tags": ["deal", "bestseller"]
-  },
-  {
-    "name": "AirPods Pro",
-    "slug": "airpods-pro",
-    "brand": "Apple",
-    "category": "Accessories",
-    "description": "Premium wireless earbuds with active noise cancellation and an immersive audio experience.",
-    "isPublished": true,
-    "images": [
-      {
-        "url": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1",
-        "altText": "AirPods Pro",
-        "order": 0
-      }
-    ],
-    "variants": [
-      {
-        "color": "White",
-        "colorHex": "#FFFFFF",
-        "storage": null,
-        "ram": null,
-        "sku": "APL-APPRO-WHT",
-        "price": 8999,
-        "compareAtPrice": 9999,
-        "stock": 25
-      }
-    ],
-    "tags": ["bestseller"]
-  },
-  {
-    "name": "Galaxy Buds",
-    "slug": "galaxy-buds",
-    "brand": "Samsung",
-    "category": "Accessories",
-    "description": "Compact wireless earbuds with rich sound and active noise cancellation.",
-    "isPublished": true,
-    "images": [
-      {
-        "url": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46",
-        "altText": "Galaxy Buds",
-        "order": 0
-      }
-    ],
+    "images": [],
     "variants": [
       {
         "color": "Graphite",
-        "colorHex": "#343434",
-        "storage": null,
-        "ram": null,
-        "sku": "SAM-BUDS-GRA",
-        "price": 4999,
-        "compareAtPrice": 5999,
-        "stock": 30
+        "colorHex": "#454545",
+        "storage": "128GB",
+        "ram": "8GB",
+        "sku": "SAM-A56-GRA-128-8",
+        "price": 21999,
+        "compareAtPrice": 23999,
+        "stock": 12
+      },
+      {
+        "color": "Olive",
+        "colorHex": "#68705B",
+        "storage": "256GB",
+        "ram": "8GB",
+        "sku": "SAM-A56-OLI-256-8",
+        "price": 23999,
+        "compareAtPrice": 25999,
+        "stock": 8
       }
-    ],
-    "tags": ["deal", "bestseller"]
+    ]
   },
   {
-    "name": "Apple Watch Series 11",
-    "slug": "apple-watch-series-11",
-    "brand": "Apple",
-    "category": "Accessories",
-    "description": "A premium smartwatch with health, fitness, communication, and everyday productivity features.",
+    "name": "Samsung Galaxy S25",
+    "slug": "samsung-galaxy-s25",
+    "description": "Compact flagship smartphone with a Dynamic AMOLED display and advanced Galaxy features.",
+    "brand": "Samsung",
+    "category": "Smartphones",
+    "screenSize": "6.2 inches",
+    "screenType": "Dynamic AMOLED 2X, 120Hz",
+    "processor": "Snapdragon 8 Elite",
+    "battery": "4000 mAh",
+    "camera": "50MP + 10MP + 12MP rear, 12MP front",
+    "os": "Android",
+    "releaseYear": 2025,
     "isPublished": true,
-    "images": [
-      {
-        "url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12",
-        "altText": "Apple Watch",
-        "order": 0
-      }
+    "tags": [
+      "new"
     ],
+    "images": [],
     "variants": [
       {
-        "color": "Midnight",
-        "colorHex": "#171717",
+        "color": "Navy",
+        "colorHex": "#26354A",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "SAM-S25-NAV-256-12",
+        "price": 39999,
+        "compareAtPrice": 42999,
+        "stock": 5
+      },
+      {
+        "color": "Silver",
+        "colorHex": "#B9B9B9",
+        "storage": "512GB",
+        "ram": "12GB",
+        "sku": "SAM-S25-SIL-512-12",
+        "price": 44999,
+        "compareAtPrice": null,
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "name": "Apple iPhone 16",
+    "slug": "apple-iphone-16",
+    "description": "iPhone with A18 chip, Super Retina XDR display, and an advanced dual-camera system.",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "screenSize": "6.1 inches",
+    "screenType": "Super Retina XDR OLED",
+    "processor": "Apple A18",
+    "battery": "Up to 22 hours video playback",
+    "camera": "48MP + 12MP rear, 12MP front",
+    "os": "iOS",
+    "releaseYear": 2024,
+    "isPublished": true,
+    "tags": [
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#202020",
+        "storage": "128GB",
+        "ram": null,
+        "sku": "APP-IP16-BLK-128",
+        "price": 42999,
+        "compareAtPrice": 45999,
+        "stock": 7
+      },
+      {
+        "color": "Ultramarine",
+        "colorHex": "#315FBD",
+        "storage": "256GB",
+        "ram": null,
+        "sku": "APP-IP16-ULT-256",
+        "price": 48999,
+        "compareAtPrice": null,
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Apple iPhone 16 Pro",
+    "slug": "apple-iphone-16-pro",
+    "description": "Pro iPhone with A18 Pro chip, titanium design, and a versatile camera system.",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "screenSize": "6.3 inches",
+    "screenType": "Super Retina XDR OLED, ProMotion 120Hz",
+    "processor": "Apple A18 Pro",
+    "battery": "Up to 27 hours video playback",
+    "camera": "48MP + 48MP + 12MP rear, 12MP front",
+    "os": "iOS",
+    "releaseYear": 2024,
+    "isPublished": true,
+    "tags": [
+      "new"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Natural Titanium",
+        "colorHex": "#A6A39B",
+        "storage": "256GB",
+        "ram": null,
+        "sku": "APP-IP16P-NAT-256",
+        "price": 59999,
+        "compareAtPrice": 62999,
+        "stock": 3
+      },
+      {
+        "color": "Black Titanium",
+        "colorHex": "#393939",
+        "storage": "512GB",
+        "ram": null,
+        "sku": "APP-IP16P-BLK-512",
+        "price": 69999,
+        "compareAtPrice": null,
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "name": "Xiaomi Redmi Note 14 Pro 5G",
+    "slug": "xiaomi-redmi-note-14-pro-5g",
+    "description": "Mid-range 5G phone with a 120Hz AMOLED display and optical image stabilization.",
+    "brand": "Xiaomi",
+    "category": "Smartphones",
+    "screenSize": "6.67 inches",
+    "screenType": "AMOLED, 120Hz",
+    "processor": "MediaTek Dimensity 7300 Ultra",
+    "battery": "5110 mAh",
+    "camera": "200MP + 8MP + 2MP rear, 20MP front",
+    "os": "Android",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "bestseller",
+      "deal"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": "256GB",
+        "ram": "8GB",
+        "sku": "XIA-RN14P-BLK-256-8",
+        "price": 15999,
+        "compareAtPrice": 17499,
+        "stock": 10
+      },
+      {
+        "color": "Purple",
+        "colorHex": "#9B8CA8",
+        "storage": "512GB",
+        "ram": "12GB",
+        "sku": "XIA-RN14P-PUR-512-12",
+        "price": 18499,
+        "compareAtPrice": 19999,
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "name": "Xiaomi Redmi 14C",
+    "slug": "xiaomi-redmi-14c",
+    "description": "Affordable everyday smartphone with a large display and high-capacity battery.",
+    "brand": "Xiaomi",
+    "category": "Smartphones",
+    "screenSize": "6.88 inches",
+    "screenType": "IPS LCD, 120Hz",
+    "processor": "MediaTek Helio G81 Ultra",
+    "battery": "5160 mAh",
+    "camera": "50MP rear, 13MP front",
+    "os": "Android",
+    "releaseYear": 2024,
+    "isPublished": true,
+    "tags": [
+      "deal"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": "128GB",
+        "ram": "6GB",
+        "sku": "XIA-R14C-BLK-128-6",
+        "price": 6499,
+        "compareAtPrice": 6999,
+        "stock": 15
+      },
+      {
+        "color": "Green",
+        "colorHex": "#87947D",
+        "storage": "256GB",
+        "ram": "8GB",
+        "sku": "XIA-R14C-GRN-256-8",
+        "price": 7999,
+        "compareAtPrice": null,
+        "stock": 9
+      }
+    ]
+  },
+  {
+    "name": "OPPO Reno 13F 5G",
+    "slug": "oppo-reno-13f-5g",
+    "description": "5G smartphone with AMOLED display, versatile cameras, and a large battery.",
+    "brand": "OPPO",
+    "category": "Smartphones",
+    "screenSize": "6.67 inches",
+    "screenType": "AMOLED, 120Hz",
+    "processor": "Snapdragon 6 Gen 1",
+    "battery": "5800 mAh",
+    "camera": "50MP + 8MP + 2MP rear, 32MP front",
+    "os": "Android",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "new"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Grey",
+        "colorHex": "#55565A",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "OP-R13F-GRY-256-12",
+        "price": 16999,
+        "compareAtPrice": 18499,
+        "stock": 8
+      },
+      {
+        "color": "Purple",
+        "colorHex": "#70516C",
+        "storage": "512GB",
+        "ram": "12GB",
+        "sku": "OP-R13F-PLU-512-12",
+        "price": 18999,
+        "compareAtPrice": null,
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "name": "realme 14 Pro 5G",
+    "slug": "realme-14-pro-5g",
+    "description": "5G smartphone with curved AMOLED display and a high-capacity battery.",
+    "brand": "realme",
+    "category": "Smartphones",
+    "screenSize": "6.77 inches",
+    "screenType": "Curved AMOLED, 120Hz",
+    "processor": "Dimensity 7300 Energy",
+    "battery": "6000 mAh",
+    "camera": "50MP + 2MP rear, 16MP front",
+    "os": "Android",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "new",
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "White",
+        "colorHex": "#E8E4DC",
+        "storage": "256GB",
+        "ram": "8GB",
+        "sku": "REA-14P-WHT-256-8",
+        "price": 17999,
+        "compareAtPrice": 19499,
+        "stock": 7
+      },
+      {
+        "color": "Grey",
+        "colorHex": "#686868",
+        "storage": "512GB",
+        "ram": "12GB",
+        "sku": "REA-14P-GRY-512-12",
+        "price": 19999,
+        "compareAtPrice": null,
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Anker 323 Charger 33W",
+    "slug": "anker-323-charger-33w",
+    "description": "Compact USB-C wall charger for compatible phones and accessories.",
+    "brand": "Anker",
+    "category": "Chargers",
+    "isPublished": true,
+    "tags": [
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "White",
+        "colorHex": "#F2F2F2",
         "storage": null,
         "ram": null,
-        "sku": "APL-W11-MID",
-        "price": 14999,
-        "compareAtPrice": 16999,
-        "stock": 13
+        "sku": "ANK-323-WHT-33W",
+        "price": 999,
+        "compareAtPrice": 1199,
+        "stock": 20
+      },
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": null,
+        "ram": null,
+        "sku": "ANK-323-BLK-33W",
+        "price": 999,
+        "compareAtPrice": 1199,
+        "stock": 18
       }
+    ]
+  },
+  {
+    "name": "Anker 325 Power Bank 20000mAh",
+    "slug": "anker-325-power-bank-20000",
+    "description": "Portable 20000mAh battery for phones and other USB-powered devices.",
+    "brand": "Anker",
+    "category": "Power Banks",
+    "isPublished": true,
+    "tags": [
+      "deal"
     ],
-    "tags": ["new", "bestseller"]
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": "20000mAh",
+        "ram": null,
+        "sku": "ANK-325-BLK-20K",
+        "price": 2299,
+        "compareAtPrice": 2599,
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "name": "JBL Tune 520BT",
+    "slug": "jbl-tune-520bt",
+    "description": "Wireless on-ear headphones with JBL Pure Bass sound and a foldable design.",
+    "brand": "JBL",
+    "category": "Headphones",
+    "isPublished": true,
+    "tags": [
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": null,
+        "ram": null,
+        "sku": "JBL-T520-BLK",
+        "price": 2499,
+        "compareAtPrice": 2799,
+        "stock": 9
+      },
+      {
+        "color": "Blue",
+        "colorHex": "#315F9E",
+        "storage": null,
+        "ram": null,
+        "sku": "JBL-T520-BLU",
+        "price": 2499,
+        "compareAtPrice": null,
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "name": "Anker Soundcore R50i",
+    "slug": "anker-soundcore-r50i",
+    "description": "True wireless earbuds with a compact charging case and app-supported sound customization.",
+    "brand": "Anker",
+    "category": "Headphones",
+    "isPublished": true,
+    "tags": [
+      "deal"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": null,
+        "ram": null,
+        "sku": "ANK-R50I-BLK",
+        "price": 1199,
+        "compareAtPrice": 1399,
+        "stock": 14
+      },
+      {
+        "color": "White",
+        "colorHex": "#F2F2F2",
+        "storage": null,
+        "ram": null,
+        "sku": "ANK-R50I-WHT",
+        "price": 1199,
+        "compareAtPrice": null,
+        "stock": 10
+      }
+    ]
+  },
+  {
+    "name": "Universal Clear Phone Case",
+    "slug": "universal-clear-phone-case",
+    "description": "Transparent flexible protective case. Keep unpublished until a compatible phone model is selected.",
+    "brand": "Anker",
+    "category": "Cases & Protection",
+    "isPublished": false,
+    "tags": [],
+    "images": [],
+    "variants": [
+      {
+        "color": "Transparent",
+        "colorHex": "#DDE5E7",
+        "storage": null,
+        "ram": null,
+        "sku": "ANK-CASE-CLR-UNI",
+        "price": 199,
+        "compareAtPrice": null,
+        "stock": 30
+      }
+    ]
   }
 ]

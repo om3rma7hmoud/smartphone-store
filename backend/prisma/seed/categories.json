@@ -5,8 +5,23 @@
     "type": "PHONE"
   },
   {
-    "name": "Accessories",
-    "slug": "accessories",
+    "name": "Chargers",
+    "slug": "chargers",
+    "type": "ACCESSORY"
+  },
+  {
+    "name": "Headphones",
+    "slug": "headphones",
+    "type": "ACCESSORY"
+  },
+  {
+    "name": "Power Banks",
+    "slug": "power-banks",
+    "type": "ACCESSORY"
+  },
+  {
+    "name": "Cases & Protection",
+    "slug": "cases-protection",
     "type": "ACCESSORY"
   }
 ]

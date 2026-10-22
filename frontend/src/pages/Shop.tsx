@@ -70,6 +70,31 @@ function ShopContent() {
     fromParams(searchParams),
   );
   const { products, isLoading } = useProducts();
+
+  const filterOptions = useMemo(
+    () => ({
+      brands: [...new Set(products.map((p) => p.brand.name))].sort(),
+      os: [...new Set(products.map((p) => p.os).filter(Boolean))].sort(),
+      rams: [
+        ...new Set(
+          products.flatMap((p) =>
+            p.variants.map((v) => v.ram).filter((v): v is string => Boolean(v)),
+          ),
+        ),
+      ].sort(),
+      storages: [
+        ...new Set(
+          products.flatMap((p) =>
+            p.variants
+              .map((v) => v.storage)
+              .filter((v): v is string => Boolean(v)),
+          ),
+        ),
+      ].sort(),
+    }),
+    [products],
+  );
+
   const [query, setQuery] = useState(searchParams.get("q") ?? "");
   const [page, setPage] = useState(1);
   const [sort, setSort] = useState<SortKey>(
@@ -198,6 +223,7 @@ function ShopContent() {
           <div className="sticky top-24">
             <FilterPanel
               filters={filters}
+              options={filterOptions}
               onChange={updateFilters}
               onClear={() => updateFilters(emptyFilters)}
             />
@@ -237,6 +263,7 @@ function ShopContent() {
         updateFilters={updateFilters}
         emptyFilters={emptyFilters}
         results={results}
+        options={filterOptions}
       />
     </div>
   );

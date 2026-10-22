@@ -1,27 +1,37 @@
 [
   {
-    "name": "Apple",
-    "slug": "apple",
-    "logoUrl": "https://cdn.simpleicons.org/apple"
-  },
-  {
     "name": "Samsung",
     "slug": "samsung",
-    "logoUrl": "https://cdn.simpleicons.org/samsung"
+    "logoUrl": null
   },
   {
-    "name": "Google",
-    "slug": "google",
-    "logoUrl": "https://cdn.simpleicons.org/google"
+    "name": "Apple",
+    "slug": "apple",
+    "logoUrl": null
   },
   {
     "name": "Xiaomi",
     "slug": "xiaomi",
-    "logoUrl": "https://cdn.simpleicons.org/xiaomi"
+    "logoUrl": null
   },
   {
-    "name": "OnePlus",
-    "slug": "oneplus",
-    "logoUrl": "https://cdn.simpleicons.org/oneplus"
+    "name": "OPPO",
+    "slug": "oppo",
+    "logoUrl": null
+  },
+  {
+    "name": "realme",
+    "slug": "realme",
+    "logoUrl": null
+  },
+  {
+    "name": "Anker",
+    "slug": "anker",
+    "logoUrl": null
+  },
+  {
+    "name": "JBL",
+    "slug": "jbl",
+    "logoUrl": null
   }
 ]

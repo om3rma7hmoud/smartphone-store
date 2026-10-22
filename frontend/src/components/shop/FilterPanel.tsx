@@ -1,15 +1,17 @@
-import {
-  BRANDS,
-  OS_OPTIONS,
-  RAM_OPTIONS,
-  STORAGE_OPTIONS,
-} from "../../data/products";
 import type { FilterProduct } from "../../types";
 import { PRICE_CEILING, PRICE_FLOOR } from "../../utils/filterShop";
 import { formatEGP } from "../../utils/format";
 
+interface FilterOptions {
+  brands: string[];
+  os: string[];
+  rams: string[];
+  storages: string[];
+}
+
 interface FilterPanelProps {
   filters: FilterProduct;
+  options: FilterOptions;
   onChange: (next: FilterProduct) => void;
   onClear: () => void;
 }
@@ -68,7 +70,12 @@ function Check({
   );
 }
 
-function FilterPanel({ filters, onChange, onClear }: FilterPanelProps) {
+function FilterPanel({
+  filters,
+  options,
+  onChange,
+  onClear,
+}: FilterPanelProps) {
   return (
     <div>
       <div className="flex items-center justify-between pb-4">
@@ -104,7 +111,7 @@ function FilterPanel({ filters, onChange, onClear }: FilterPanelProps) {
       </Group>
 
       <Group title="Brand">
-        {BRANDS.map((b) => (
+        {options.brands.map((b) => (
           <Check
             key={b}
             label={b}
@@ -178,7 +185,7 @@ function FilterPanel({ filters, onChange, onClear }: FilterPanelProps) {
 
       <Group title="RAM">
         <div className="flex flex-wrap gap-2">
-          {RAM_OPTIONS.map((r) => (
+          {options.rams.map((r) => (
             <button
               key={r}
               type="button"
@@ -200,7 +207,7 @@ function FilterPanel({ filters, onChange, onClear }: FilterPanelProps) {
 
       <Group title="Storage">
         <div className="flex flex-wrap gap-2">
-          {STORAGE_OPTIONS.map((s) => (
+          {options.storages.map((s) => (
             <button
               key={s}
               type="button"
@@ -221,7 +228,7 @@ function FilterPanel({ filters, onChange, onClear }: FilterPanelProps) {
       </Group>
 
       <Group title="Operating system">
-        {OS_OPTIONS.map((o) => (
+        {options.os.map((o) => (
           <Check
             key={o}
             label={o}

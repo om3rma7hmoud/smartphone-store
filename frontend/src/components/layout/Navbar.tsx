@@ -3,6 +3,7 @@ import {
   HeartIcon,
   LogOut,
   MenuIcon,
+  SearchIcon,
   ShoppingBagIcon,
   UserIcon,
 } from "lucide-react";
@@ -77,6 +78,23 @@ function Navbar() {
           </nav>
 
           <div className="flex items-center gap-1 sm:gap-2">
+            <button
+              type="button"
+              onClick={() => setSearchOpen(true)}
+              className="border-line text-ink-400 ease-premium hover:border-line-strong hover:text-ink hidden h-9 items-center gap-2 border px-3 text-[13px] transition-colors duration-150 lg:flex"
+              aria-label="Search products"
+            >
+              <SearchIcon size={15} />
+              <span>Search</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setSearchOpen(true)}
+              className="text-ink p-2 lg:hidden"
+              aria-label="Search products"
+            >
+              <SearchIcon size={19} />
+            </button>
             <Link
               to="/compare"
               className="text-ink ease-premium hover:text-accent relative hidden p-2 transition-colors duration-150 lg:block"

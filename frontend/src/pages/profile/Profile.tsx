@@ -33,7 +33,7 @@ function Profile() {
   const latest = orders[0];
 
   const lifetime = orders
-    .filter((order) => order.status !== "Cancelled")
+    .filter((order) => order.status !== "CANCELLED")
     .reduce((sum, order) => sum + order.total, 0);
 
   const stats = [
@@ -192,8 +192,8 @@ function Profile() {
         {latest ? (
           <div className="flex flex-wrap items-center gap-4 px-6 py-5">
             <img
-              src={latest.items[0]?.image}
-              alt=""
+              src={latest.items[0]?.product.images[0]?.url}
+              alt={latest.items[0]?.product.images[0]?.altText || ""}
               className="bg-surface-muted h-16 w-16 shrink-0 object-cover"
             />
 
@@ -205,7 +205,7 @@ function Profile() {
               <p className="text-ink-400 mt-1 text-[13px]">
                 {latest.items.length}{" "}
                 {latest.items.length === 1 ? "item" : "items"} ·{" "}
-                {formatEGP(latest.total)} · {latest.payment}
+                {formatEGP(latest.total)} · {latest.paymentMethod}
               </p>
             </div>
 

@@ -43,8 +43,9 @@ function ProductPage() {
         setProduct(fetchedProduct);
 
         const initialVariant =
-          fetchedProduct.variants.find((variant) => variant.stock > 0) ??
-          cheapestVariant(fetchedProduct);
+          fetchedProduct.variants.find(
+            (variant: ProductVariant) => variant.stock > 0,
+          ) ?? cheapestVariant(fetchedProduct);
 
         setSelectedVariantId(initialVariant.id);
       } catch (error) {
