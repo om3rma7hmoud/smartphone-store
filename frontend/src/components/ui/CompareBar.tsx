@@ -59,7 +59,7 @@ export function CompareBar() {
                       className="border-line flex shrink-0 items-center gap-2 border bg-white py-1 pr-2 pl-1"
                     >
                       <img
-                        src={product.images[0]?.url ?? ""}
+                        src={product.images[0]?.url ?? "/placeholder.svg"}
                         alt={product.images[0]?.altText ?? ""}
                         className="h-8 w-8 object-cover"
                       />

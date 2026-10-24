@@ -33,5 +33,40 @@
     "name": "JBL",
     "slug": "jbl",
     "logoUrl": null
+  },
+  {
+    "name": "Google",
+    "slug": "google",
+    "logoUrl": null
+  },
+  {
+    "name": "OnePlus",
+    "slug": "oneplus",
+    "logoUrl": null
+  },
+  {
+    "name": "Huawei",
+    "slug": "huawei",
+    "logoUrl": null
+  },
+  {
+    "name": "Nothing",
+    "slug": "nothing",
+    "logoUrl": null
+  },
+  {
+    "name": "Baseus",
+    "slug": "baseus",
+    "logoUrl": null
+  },
+  {
+    "name": "UGREEN",
+    "slug": "ugreen",
+    "logoUrl": null
+  },
+  {
+    "name": "Soundcore",
+    "slug": "soundcore",
+    "logoUrl": null
   }
 ]

@@ -123,7 +123,7 @@ function Orders() {
                 {order.items.map((item) => (
                   <li key={item.id} className="flex items-center gap-3">
                     <img
-                      src={item.product?.images?.[0]?.url || "/placeholder.png"}
+                      src={item.product?.images?.[0]?.url || "/placeholder.svg"}
                       alt={item.productName}
                       className="bg-surface-muted h-12 w-12 shrink-0 object-cover"
                     />

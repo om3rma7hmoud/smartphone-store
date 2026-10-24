@@ -76,7 +76,7 @@ function ProductCard({ product, layout = "grid" }: ProductCardProps) {
           aria-label={`View ${product.name}`}
         >
           <img
-            src={product.images[0].url}
+            src={product.images[0]?.url ?? "/placeholder.svg"}
             alt={`${product.brand.name} ${product.name}`}
             loading="lazy"
             className="ease-premium h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"

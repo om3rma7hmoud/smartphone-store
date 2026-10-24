@@ -46,7 +46,7 @@ function PromoProduct() {
           {promoProduct && (
             <>
               <img
-                src={promoProduct.images[0].url}
+                src={promoProduct.images[0]?.url ?? "/placeholder.svg"}
                 alt={`${promoProduct.brand} ${promoProduct.name}`}
                 className="h-full w-full object-cover"
               />

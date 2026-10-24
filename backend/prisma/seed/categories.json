@@ -23,5 +23,30 @@
     "name": "Cases & Protection",
     "slug": "cases-protection",
     "type": "ACCESSORY"
+  },
+  {
+    "name": "Smartwatches",
+    "slug": "smartwatches",
+    "type": "ACCESSORY"
+  },
+  {
+    "name": "Cables",
+    "slug": "cables",
+    "type": "ACCESSORY"
+  },
+  {
+    "name": "Screen Protectors",
+    "slug": "screen-protectors",
+    "type": "ACCESSORY"
+  },
+  {
+    "name": "Speakers",
+    "slug": "speakers",
+    "type": "ACCESSORY"
+  },
+  {
+    "name": "Phone Stands & Holders",
+    "slug": "phone-stands-holders",
+    "type": "ACCESSORY"
   }
 ]

@@ -127,7 +127,7 @@ function OrderDetails() {
             {order.items.map((item) => (
               <li key={item.id} className="flex gap-4 px-5 py-4">
                 <img
-                  src={item.product?.images?.[0]?.url || "/placeholder.png"}
+                  src={item.product?.images?.[0]?.url || "/placeholder.svg"}
                   alt={item.productName}
                   className="bg-surface-muted h-16 w-16 shrink-0 object-cover"
                 />

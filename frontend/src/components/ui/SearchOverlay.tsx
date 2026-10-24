@@ -147,7 +147,7 @@ export function SearchOverlay({ open, onClose }: SearchOverlayProps) {
                     className="border-line ease-premium hover:bg-surface-muted flex w-full items-center gap-3 border-b px-4 py-3 text-left transition-colors duration-150 last:border-b-0"
                   >
                     <img
-                      src={p.images[0].url}
+                      src={p.images[0]?.url ?? "/placeholder.svg"}
                       alt=""
                       className="bg-surface-muted h-11 w-11 object-cover"
                     />

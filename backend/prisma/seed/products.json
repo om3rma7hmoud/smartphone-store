@@ -477,5 +477,555 @@
         "stock": 30
       }
     ]
+  },
+  {
+    "name": "Apple iPhone 17 Pro",
+    "slug": "iphone-17-pro",
+    "description": "Demo catalog listing. Confirm regional specifications and pricing before sale.",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "screenSize": "6.3 inches",
+    "screenType": "OLED, ProMotion 120Hz",
+    "processor": "Apple A19 Pro",
+    "battery": "Demo value — verify official rating",
+    "camera": "Triple rear camera system — verify configuration",
+    "os": "iOS",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "new",
+      "deal"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Cosmic Black",
+        "colorHex": "#303030",
+        "storage": "256GB",
+        "ram": null,
+        "sku": "APP-IP17P-BLK-256",
+        "price": 69999,
+        "compareAtPrice": 75599,
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "name": "Xiaomi 16 Pro",
+    "slug": "xiaomi-16-pro",
+    "description": "Demo catalog listing. Confirm official regional specifications before publishing.",
+    "brand": "Xiaomi",
+    "category": "Smartphones",
+    "screenSize": "6.8 inches",
+    "screenType": "AMOLED, high refresh rate — verify",
+    "processor": "Flagship Snapdragon platform — verify exact chipset",
+    "battery": "Demo value — verify official rating",
+    "camera": "Multi-camera system — verify configuration",
+    "os": "Android",
+    "releaseYear": 2026,
+    "isPublished": true,
+    "tags": [
+      "new",
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": "512GB",
+        "ram": "16GB",
+        "sku": "XIA-16P-BLK-512",
+        "price": 52999,
+        "compareAtPrice": 57239,
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S25 Ultra",
+    "slug": "samsung-galaxy-s25-ultra",
+    "description": "Premium Android smartphone with a large AMOLED display and advanced camera system.",
+    "brand": "Samsung",
+    "category": "Smartphones",
+    "screenSize": "6.9 inches",
+    "screenType": "Dynamic AMOLED 2X, 120Hz",
+    "processor": "Snapdragon 8 Elite",
+    "battery": "5000 mAh",
+    "camera": "200MP main camera with additional rear cameras",
+    "os": "Android",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Titanium Gray",
+        "colorHex": "#777777",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "SAM-S25U-TIT-256",
+        "price": 57999,
+        "compareAtPrice": 62639,
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Z Flip7",
+    "slug": "samsung-galaxy-z-flip7",
+    "description": "Foldable smartphone listing; verify final regional configuration before sale.",
+    "brand": "Samsung",
+    "category": "Smartphones",
+    "screenSize": "6.9 inches",
+    "screenType": "Foldable AMOLED — verify",
+    "processor": "Samsung flagship chipset — verify",
+    "battery": "Demo value — verify official rating",
+    "camera": "Dual rear camera system — verify",
+    "os": "Android",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "new"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Jet Black",
+        "colorHex": "#171717",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "SAM-ZF7-BLK-256",
+        "price": 54999,
+        "compareAtPrice": 59399,
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "name": "Google Pixel 10 Pro",
+    "slug": "google-pixel-10-pro",
+    "description": "Google Pixel flagship listing. Confirm exact market specifications before publishing.",
+    "brand": "Google",
+    "category": "Smartphones",
+    "screenSize": "6.3 inches",
+    "screenType": "LTPO OLED, high refresh rate — verify",
+    "processor": "Google Tensor platform — verify exact generation",
+    "battery": "Demo value — verify official rating",
+    "camera": "Pixel multi-camera system — verify",
+    "os": "Android",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "new"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Gray",
+        "colorHex": "#777777",
+        "storage": "256GB",
+        "ram": "16GB",
+        "sku": "GOO-P10P-GRY-256",
+        "price": 49999,
+        "compareAtPrice": 53999,
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "OnePlus 13",
+    "slug": "oneplus-13",
+    "description": "Flagship Android smartphone with a high-refresh-rate display.",
+    "brand": "OnePlus",
+    "category": "Smartphones",
+    "screenSize": "6.82 inches",
+    "screenType": "LTPO AMOLED, 120Hz",
+    "processor": "Snapdragon 8 Elite",
+    "battery": "6000 mAh",
+    "camera": "50MP multi-camera system",
+    "os": "Android",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "ONE-13-BLK-256",
+        "price": 42999,
+        "compareAtPrice": 46439,
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "name": "OPPO Reno13 Pro 5G",
+    "slug": "oppo-reno13-pro-5g",
+    "description": "Mid-to-high range 5G smartphone with AMOLED display.",
+    "brand": "OPPO",
+    "category": "Smartphones",
+    "screenSize": "6.83 inches",
+    "screenType": "AMOLED, 120Hz",
+    "processor": "MediaTek Dimensity 8350",
+    "battery": "5800 mAh",
+    "camera": "50MP multi-camera system",
+    "os": "Android",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "deal"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Graphite",
+        "colorHex": "#555555",
+        "storage": "512GB",
+        "ram": "12GB",
+        "sku": "OP-R13P-GRY-512",
+        "price": 27999,
+        "compareAtPrice": 30239,
+        "stock": 8
+      }
+    ]
+  },
+  {
+    "name": "Xiaomi 15T Pro",
+    "slug": "xiaomi-15t-pro",
+    "description": "Performance-focused Xiaomi smartphone with AMOLED display.",
+    "brand": "Xiaomi",
+    "category": "Smartphones",
+    "screenSize": "6.83 inches",
+    "screenType": "AMOLED, 144Hz",
+    "processor": "MediaTek Dimensity 9400+",
+    "battery": "5500 mAh",
+    "camera": "50MP multi-camera system",
+    "os": "Android",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "deal",
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "XIA-15TP-BLK-256",
+        "price": 32999,
+        "compareAtPrice": 35639,
+        "stock": 7
+      }
+    ]
+  },
+  {
+    "name": "realme GT 7 Pro",
+    "slug": "realme-gt-7-pro",
+    "description": "Performance flagship with AMOLED display and large battery.",
+    "brand": "realme",
+    "category": "Smartphones",
+    "screenSize": "6.78 inches",
+    "screenType": "LTPO AMOLED, 120Hz",
+    "processor": "Snapdragon 8 Elite",
+    "battery": "6500 mAh",
+    "camera": "50MP multi-camera system",
+    "os": "Android",
+    "releaseYear": 2024,
+    "isPublished": true,
+    "tags": [
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Orange",
+        "colorHex": "#B65A32",
+        "storage": "512GB",
+        "ram": "16GB",
+        "sku": "REA-GT7P-ORA-512",
+        "price": 36999,
+        "compareAtPrice": 39959,
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "name": "Nothing Phone (3)",
+    "slug": "nothing-phone-3",
+    "description": "Android smartphone with distinctive transparent-inspired design language.",
+    "brand": "Nothing",
+    "category": "Smartphones",
+    "screenSize": "6.7 inches",
+    "screenType": "AMOLED, high refresh rate — verify",
+    "processor": "Flagship Snapdragon platform — verify",
+    "battery": "Demo value — verify official rating",
+    "camera": "Multi-camera system — verify",
+    "os": "Android",
+    "releaseYear": 2025,
+    "isPublished": true,
+    "tags": [
+      "new"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "White",
+        "colorHex": "#EEEEEE",
+        "storage": "256GB",
+        "ram": "12GB",
+        "sku": "NOT-PH3-WHT-256",
+        "price": 39999,
+        "compareAtPrice": 43199,
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Watch7",
+    "slug": "samsung-galaxy-watch7",
+    "description": "Bluetooth smartwatch listing; confirm size and connectivity variant.",
+    "brand": "Samsung",
+    "category": "Smartwatches",
+    "isPublished": true,
+    "tags": [
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Green",
+        "colorHex": "#53634E",
+        "storage": "44mm",
+        "ram": null,
+        "sku": "SAM-W7-GRN-44",
+        "price": 9999,
+        "compareAtPrice": 10999,
+        "stock": 8
+      }
+    ]
+  },
+  {
+    "name": "Apple Watch SE (2nd Gen)",
+    "slug": "apple-watch-se-2",
+    "description": "Apple smartwatch listing; confirm case size and connectivity variant.",
+    "brand": "Apple",
+    "category": "Smartwatches",
+    "isPublished": true,
+    "tags": [
+      "deal"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Midnight",
+        "colorHex": "#242424",
+        "storage": "44mm",
+        "ram": null,
+        "sku": "APP-WSE2-MID-44",
+        "price": 11999,
+        "compareAtPrice": 12999,
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "name": "Baseus GaN5 Pro Charger 65W",
+    "slug": "baseus-gan5-pro-charger-65w",
+    "description": "Compact multi-port GaN USB-C wall charger. Check supported charging protocols.",
+    "brand": "Baseus",
+    "category": "Chargers",
+    "isPublished": true,
+    "tags": [
+      "deal"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": "65W",
+        "ram": null,
+        "sku": "BAS-GAN5P-BLK-65W",
+        "price": 1899,
+        "compareAtPrice": 2199,
+        "stock": 20
+      }
+    ]
+  },
+  {
+    "name": "UGREEN Nexode Charger 100W",
+    "slug": "ugreen-nexode-charger-100w",
+    "description": "High-output multi-port USB-C GaN charger for compatible devices.",
+    "brand": "UGREEN",
+    "category": "Chargers",
+    "isPublished": true,
+    "tags": [
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Gray",
+        "colorHex": "#777777",
+        "storage": "100W",
+        "ram": null,
+        "sku": "UGR-NEX-100W-GRY",
+        "price": 3499,
+        "compareAtPrice": 3799,
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "name": "Anker USB-C Cable 1.8m",
+    "slug": "anker-usb-c-cable-18m",
+    "description": "USB-C charging and data cable. Verify supported wattage for the selected model.",
+    "brand": "Anker",
+    "category": "Cables",
+    "isPublished": true,
+    "tags": [
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": "1.8m",
+        "ram": null,
+        "sku": "ANK-USBC-18M-BLK",
+        "price": 399,
+        "compareAtPrice": 499,
+        "stock": 30
+      }
+    ]
+  },
+  {
+    "name": "Baseus USB-C to Lightning Cable",
+    "slug": "baseus-usbc-lightning-cable",
+    "description": "USB-C to Lightning cable for compatible Apple devices.",
+    "brand": "Baseus",
+    "category": "Cables",
+    "isPublished": true,
+    "tags": [
+      "deal"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "White",
+        "colorHex": "#EEEEEE",
+        "storage": "1m",
+        "ram": null,
+        "sku": "BAS-C2L-WHT-1M",
+        "price": 299,
+        "compareAtPrice": 399,
+        "stock": 25
+      }
+    ]
+  },
+  {
+    "name": "Tempered Glass Screen Protector",
+    "slug": "tempered-glass-screen-protector-universal",
+    "description": "Generic screen protector. Keep unpublished until exact compatible phone model is selected.",
+    "brand": "Baseus",
+    "category": "Screen Protectors",
+    "isPublished": false,
+    "tags": [],
+    "images": [],
+    "variants": [
+      {
+        "color": "Clear",
+        "colorHex": null,
+        "storage": null,
+        "ram": null,
+        "sku": "BAS-TG-UNI-CLR",
+        "price": 149,
+        "compareAtPrice": null,
+        "stock": 40
+      }
+    ]
+  },
+  {
+    "name": "JBL Go 4 Portable Speaker",
+    "slug": "jbl-go-4",
+    "description": "Compact portable Bluetooth speaker. Verify color and regional warranty.",
+    "brand": "JBL",
+    "category": "Speakers",
+    "isPublished": true,
+    "tags": [
+      "new"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": null,
+        "ram": null,
+        "sku": "JBL-GO4-BLK",
+        "price": 2499,
+        "compareAtPrice": 2799,
+        "stock": 10
+      }
+    ]
+  },
+  {
+    "name": "Anker Soundcore P40i",
+    "slug": "soundcore-p40i",
+    "description": "True wireless earbuds with active noise cancellation; verify regional package contents.",
+    "brand": "Soundcore",
+    "category": "Headphones",
+    "isPublished": true,
+    "tags": [
+      "deal",
+      "bestseller"
+    ],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": null,
+        "ram": null,
+        "sku": "SCO-P40I-BLK",
+        "price": 2499,
+        "compareAtPrice": 2899,
+        "stock": 11
+      }
+    ]
+  },
+  {
+    "name": "Baseus Magnetic Phone Holder",
+    "slug": "baseus-magnetic-phone-holder",
+    "description": "Magnetic phone holder accessory; check device and case compatibility.",
+    "brand": "Baseus",
+    "category": "Phone Stands & Holders",
+    "isPublished": true,
+    "tags": [],
+    "images": [],
+    "variants": [
+      {
+        "color": "Black",
+        "colorHex": "#222222",
+        "storage": null,
+        "ram": null,
+        "sku": "BAS-MAG-HOLD-BLK",
+        "price": 599,
+        "compareAtPrice": null,
+        "stock": 18
+      }
+    ]
   }
 ]

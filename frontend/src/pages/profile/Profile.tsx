@@ -192,7 +192,7 @@ function Profile() {
         {latest ? (
           <div className="flex flex-wrap items-center gap-4 px-6 py-5">
             <img
-              src={latest.items[0]?.product.images[0]?.url}
+              src={latest.items[0]?.product.images[0]?.url ?? "/placeholder.svg"}
               alt={latest.items[0]?.product.images[0]?.altText || ""}
               className="bg-surface-muted h-16 w-16 shrink-0 object-cover"
             />
